@@ -4,7 +4,7 @@ Apple,Intel Core I5,8,Intel,MacOS,1.34,898.94,0,0
 Apple,Intel Core I7,16,AMD,MacOS,1.83,2537.45,0,512
 Apple,Intel Core I5,8,Intel,MacOS,1.37,1803.6,0,256
 Acer,AMD,4,AMD,Windows,2.1,400.0,0,0
-Apple,Intel Core I7,16,Intel,MacOs,2.04,2139.97,0,0
+Apple,Intel Core I7,16,Intel,MacOS,2.04,2139.97,0,0
 Apple,Intel Core I5,8,Intel,MacOS,1.34,1158.7,0,0
 Asus,Intel Core I7,16,Nvidia,Windows,1.3,1495.0,0,512
 Acer,Intel Core I5,8,Intel,Windows,1.6,770.0,0,256
@@ -20,7 +20,7 @@ Lenovo,Intel Core I5,8,Nvidia,Windows,2.5,999.0,1000,128
 Dell,Intel Core I5,8,Intel,Windows,1.62,819.0,0,256
 HP,Intel Core I7,8,Intel,Windows,1.91,659.0,0,256
 Dell,Intel Core I3,4,Intel,Windows,2.3,418.64,1000,0
-Apple,Intel Core I5,8,Intel,MacOs,1.35,1099.0,0,0
+Apple,Intel Core I5,8,Intel,MacOS,1.35,1099.0,0,0
 Dell,Intel Core I5,8,AMD,Windows,2.2,800.0,0,256
 Dell,Intel Core I7,8,Intel,Windows,1.88,1298.0,0,512
 HP,Intel Core I5,8,Nvidia,Windows,2.5,896.0,1000,0
@@ -28,7 +28,7 @@ Chuwi,Other Intel Types,4,Intel,Windows,1.89,244.99,0,0
 Asus,AMD,2,AMD,Windows,1.65,199.0,0,0
 HP,AMD,4,AMD,Windows,2.71,439.0,0,0
 Dell,Intel Core I7,16,Intel,Windows,1.2,1869.0,0,512
-Apple,Intel Core I5,8,Intel,MacOs,1.35,998.0,0,0
+Apple,Intel Core I5,8,Intel,MacOS,1.35,998.0,0,0
 Lenovo,Other Intel Types,4,Intel,Windows,1.44,249.0,0,0
 Acer,Intel Core I3,4,Intel,Linux,2.1,367.0,1000,0
 Dell,Intel Core I5,8,AMD,Windows,2.8,979.0,1000,128
@@ -746,7 +746,7 @@ Asus,Intel Core I7,8,Nvidia,Windows,2.24,1339.0,1000,128
 Vero,Other Intel Types,4,Intel,Windows,1.22,202.9,0,0
 Lenovo,Intel Core I7,8,Intel,Windows,1.37,1970.0,0,512
 Lenovo,Intel Core I5,8,AMD,Windows,2.08,959.0,0,256
-Apple,Other Intel Types,8,Intel,MacOs,0.92,1165.0,0,0
+Apple,Other Intel Types,8,Intel,MacOS,0.92,1165.0,0,0
 Lenovo,Intel Core I5,8,Intel,Windows,1.42,2330.0,0,256
 Asus,Other Intel Types,4,Intel,Windows,1.63,299.0,0,0
 Dell,Intel Core I5,8,Intel,Windows,1.95,810.0,0,128
@@ -1012,7 +1012,7 @@ Dell,Intel Core I7,8,Intel,Windows,1.29,1458.0,0,256
 Asus,Intel Core I7,64,Nvidia,Windows,3.58,3975.0,0,1000
 Dell,Intel Core I7,8,Intel,Windows,1.62,798.01,0,256
 Dell,Intel Core I7,16,Nvidia,Windows,3.21,1329.0,1000,256
-Apple,Other Intel Types,8,Intel,MacOs,0.92,1300.0,0,0
+Apple,Other Intel Types,8,Intel,MacOS,0.92,1300.0,0,0
 Dell,Intel Core I3,4,Intel,Windows,2.06,481.98,0,0
 HP,Intel Core I5,4,Intel,Windows,2.31,1199.0,0,0
 HP,Intel Core I5,8,Intel,Windows,1.26,1199.0,0,256
@@ -1127,7 +1127,7 @@ Dell,Intel Core I5,8,Intel,Linux,1.23,1099.0,0,256
 Acer,Intel Core I7,16,Nvidia,Windows,4.2,2599.0,1000,256
 Lenovo,Intel Core I5,8,Nvidia,Windows,2.4,819.0,1000,0
 HP,Intel Core I5,4,Intel,Windows,1.86,485.0,0,0
-Apple,Other Intel Types,8,Intel,MacOs,0.92,1163.0,0,0
+Apple,Other Intel Types,8,Intel,MacOS,0.92,1163.0,0,0
 Dell,Intel Core I5,8,Intel,Windows,1.6,1199.0,0,256
 HP,Intel Core I7,12,Nvidia,Windows,2.21,1327.0,1000,128
 Asus,Intel Core I7,16,Nvidia,Windows,4.3,2150.0,1000,512
@@ -1142,7 +1142,7 @@ HP,Intel Core I5,8,Intel,Windows,1.91,579.0,0,256
 Lenovo,AMD,4,AMD,Windows,2.2,299.0,0,0
 Acer,Intel Core I3,8,Nvidia,Windows,3.3,629.0,1000,0
 Asus,Intel Core I7,16,Nvidia,Windows,2.2,2449.0,1000,256
-Apple,Other Intel Types,8,Intel,MacOs,0.92,1279.0,0,0
+Apple,Other Intel Types,8,Intel,MacOS,0.92,1279.0,0,0
 Asus,Intel Core I7,16,Nvidia,Windows,2.2,1749.0,1000,128
 MSI,Intel Core I7,16,Nvidia,Windows,2.43,1948.99,1000,256
 Dell,Intel Core I5,8,Intel,Windows,2.191,999.0,0,256
@@ -1165,7 +1165,7 @@ Lenovo,Intel Core I7,16,Intel,Windows,1.3,1650.0,0,512
 Razer,Intel Core I7,16,Nvidia,Windows,1.95,3499.0,0,1000
 Dell,Intel Core I3,8,Intel,Windows,2.3,469.01,1000,0
 MSI,Intel Core I7,16,Nvidia,Windows,2.7,1598.0,1000,256
-Apple,Intel Core I5,4,Intel,MacOs,1.08,959.0,0,0
+Apple,Intel Core I5,4,Intel,MacOS,1.08,959.0,0,0
 HP,Intel Core I3,4,Intel,Windows,2.1,478.0,1000,0
 HP,Intel Core I7,8,Intel,Windows,1.54,2198.19,0,256
 Dell,Intel Core I5,4,Intel,Windows,2.24,737.0,0,0

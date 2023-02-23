@@ -4,12 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div class="card">
-            
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>How much it cost?</h2>
+                <form>
+                <input type="text" class="field" placeholder="Brand">
+				<select id="cars" class="field" name="CPU">
+                    <option value="" disabled selected>CPU</option>
+                    <option value="volvo">Intel Core I3</option>
+                    <option value="saab">Intel Core I5</option>
+                    <option value="fiat">Intel Core I7</option>
+                    <option value="audi">AMD</option>
+                    <option value="audi">Other Intel Types</option>
+                </select>
+				<input type="text" class="field" placeholder="RAM">
+                <select id="cars" class="field" name="GPU">
+                    <option value="" disabled selected>GPU</option>
+                    <option value="volvo">Intel</option>
+                    <option value="saab">AMD</option>
+                </select>
+                <select id="cars" class="field" name="Opsys">
+                    <option value="" disabled selected>Operating System</option>
+                    <option value="saab">MacOS</option>
+                    <option value="saab">Windows</option>
+                    <option value="saab">Linux</option>
+                    <option value="saab">Chrome</option>
+                </select>
+                <input type="text" class="field" placeholder="Weight">
+                <input type="text" class="field" placeholder="HDD">
+                <input type="text" class="field" placeholder="SDD">
+				<button class="btn">Predict</button>
+            </form>
+            </div>
         </div>
     </div>
 </body>
