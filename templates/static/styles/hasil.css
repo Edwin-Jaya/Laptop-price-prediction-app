@@ -30,8 +30,12 @@ body{
     top:0;
     z-index: -1;
 }
-
+h1{
+    color:#940083;
+}
 .contact-box{
+    min-width: 850px;
+    min-height: 539px;
     max-width: 850px;
     max-height: 600px;
     display:grid;
@@ -66,7 +70,7 @@ h2:after{
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color:#940083;
+    background-color: #940083;
 }
 .company, .cpu, .ram, .gpu, .opsys, .weight, .hdd, .ssd{
 	width: 100%;
@@ -85,7 +89,7 @@ h2:after{
 .btn{
 	width: 100%;
 	padding: 0.5rem 1rem;
-	background-color:#940083;
+	background-color: #2ecc71;
 	color: #fff;
 	font-size: 1.1rem;
 	border: none;

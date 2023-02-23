@@ -13,33 +13,33 @@
             <div class="left"></div>
             <div class="right">
                 <h2>How much it cost?</h2>
-                <form>
-                <input type="text" class="field" placeholder="Brand">
-				<select id="cars" class="field" name="CPU">
+                <form action="{{ url_for('predictharga')}}" method="POST">
+                <input type="text" name="company" class="company" placeholder="Brand" id="company">
+				<select id="cars" class="cpu" name="cpu" id="cpu">
                     <option value="" disabled selected>CPU</option>
-                    <option value="volvo">Intel Core I3</option>
-                    <option value="saab">Intel Core I5</option>
-                    <option value="fiat">Intel Core I7</option>
-                    <option value="audi">AMD</option>
-                    <option value="audi">Other Intel Types</option>
+                    <option value="Intel Core I3">Intel Core I3</option>
+                    <option value="Intel Core I5">Intel Core I5</option>
+                    <option value="Intel Core I7">Intel Core I7</option>
+                    <option value="AMD">AMD</option>
+                    <option value="Other Intel Types">Other Intel Types</option>
                 </select>
-				<input type="text" class="field" placeholder="RAM">
-                <select id="cars" class="field" name="GPU">
+				<input type="text" name="ram" class="ram" placeholder="RAM" id="ram">
+                <select id="cars" name="gpu" class="gpu" name="GPU" id="gpu">
                     <option value="" disabled selected>GPU</option>
-                    <option value="volvo">Intel</option>
-                    <option value="saab">AMD</option>
+                    <option value="Intel">Intel</option>
+                    <option value="AMD">AMD</option>
                 </select>
-                <select id="cars" class="field" name="Opsys">
+                <select id="cars" class="opsys" name="opsys" id="opsys">
                     <option value="" disabled selected>Operating System</option>
-                    <option value="saab">MacOS</option>
-                    <option value="saab">Windows</option>
-                    <option value="saab">Linux</option>
-                    <option value="saab">Chrome</option>
+                    <option value="MacOS">MacOS</option>
+                    <option value="Windows">Windows</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Chrome">Chrome</option>
                 </select>
-                <input type="text" class="field" placeholder="Weight">
-                <input type="text" class="field" placeholder="HDD">
-                <input type="text" class="field" placeholder="SDD">
-				<button class="btn">Predict</button>
+                <input type="text" name="weight" class="weight" placeholder="Weight" id="weight">
+                <input type="text" name="hdd" class="hdd" placeholder="HDD" id="hdd">
+                <input type="text" name="ssd" class="ssd" placeholder="SDD" id="ssd">
+				<button type="submit" class="btn">Predict</button>
             </form>
             </div>
         </div>
