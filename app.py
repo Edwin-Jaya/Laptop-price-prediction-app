@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 import numpy
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='./templates/', static_folder='./templates/static/')
 model = pickle.load(open('./model/model.pkl','rb'))
 
 @app.route('/')
