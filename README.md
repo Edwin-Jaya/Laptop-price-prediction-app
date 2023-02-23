@@ -12,5 +12,5 @@ This app can predict the price for a laptop based on :
 ## How does it works?
 The prediction was made using the model in the <b>model folder</b>. The model is using random forest regressor algorithm.
 ## How to run it?
-
+To run it, you can simply write this in your terminal. You can access the web via the localhost written in the terminal.
 <code>python app.py</code>
