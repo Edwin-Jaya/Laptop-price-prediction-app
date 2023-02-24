@@ -1,7 +1,7 @@
 # Laptop Price Prediction App
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png"></img>
 ## About
-This project was made for me to learn more about machine learning, web, etc. The dataset that was used is from <a href="https://www.kaggle.com/datasets/muhammetvarl/laptop-price">kaggle</a>. 
+This project was made for me to learn more about machine learning, web, etc. The dataset used is from <a href="https://www.kaggle.com/datasets/muhammetvarl/laptop-price">kaggle</a>. 
 ## Obstacles
 - [x] Choosing the right algorithm that would be use for modelling.
 - [x] Selecting features that would be use in the model.
