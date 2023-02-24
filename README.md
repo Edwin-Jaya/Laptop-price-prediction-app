@@ -1,5 +1,12 @@
 # Laptop Price Prediction App
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png"></img>
+## About
+This project was made for me to learn more about machine learning, web, etc. The dataset that was used is from <a href="https://www.kaggle.com/datasets/muhammetvarl/laptop-price">kaggle</a>. 
+## Obstacles
+- [x] Choosing the right algorithm that would be use for modelling.
+- [x] Selecting features that would be use in the model.
+- [x] How to make a card layout in website.
+- [ ] How to deploy the model in cloud.
 ## Deployment
 - [x] Web, using flask
 - [ ] Android (in progress)
