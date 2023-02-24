@@ -1,5 +1,8 @@
 # Laptop Price Prediction App
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/2560px-Python_logo_and_wordmark.svg.png"></img>
+## Deployment
+- [x] Web, using flask
+- [ ] Android (in progress)
 ## What it do?
 This app can predict the price for a laptop based on :
 1. Brand
