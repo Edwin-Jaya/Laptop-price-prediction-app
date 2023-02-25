@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
-    <title>Document</title>
+    <title>Laptop Price Predictor</title>
 </head>
 <body>
     <div class="container">
         <div class="contact-box">
             <div class="left"></div>
             <div class="right">
-                <h2>How much it cost?</h2>
+                <h2>How much does it cost?</h2>
                 <form action="{{ url_for('predictharga')}}" method="POST">
                 <input type="text" name="company" class="company" placeholder="Brand" id="company">
-				<select id="cars" class="cpu" name="cpu" id="cpu">
+				<select class="cpu" name="cpu" id="cpu">
                     <option value="" disabled selected>CPU</option>
                     <option value="Intel Core I3">Intel Core I3</option>
                     <option value="Intel Core I5">Intel Core I5</option>
@@ -24,12 +24,12 @@
                     <option value="Other Intel Types">Other Intel Types</option>
                 </select>
 				<input type="text" name="ram" class="ram" placeholder="RAM" id="ram">
-                <select id="cars" name="gpu" class="gpu" name="GPU" id="gpu">
+                <select name="gpu" class="gpu" name="GPU" id="gpu">
                     <option value="" disabled selected>GPU</option>
                     <option value="Intel">Intel</option>
                     <option value="AMD">AMD</option>
                 </select>
-                <select id="cars" class="opsys" name="opsys" id="opsys">
+                <select class="opsys" name="opsys" id="opsys">
                     <option value="" disabled selected>Operating System</option>
                     <option value="MacOS">MacOS</option>
                     <option value="Windows">Windows</option>
