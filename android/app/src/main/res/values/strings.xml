@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Laptop Price Prediction</string>
+    <string-array name="cpu_options">
+        <item>Select CPU</item>
+        <item>Intel Core I3</item>
+        <item>Intel Core I5</item>
+        <item>Intel Core I7</item>
+        <item>AMD</item>
+        <item>Other Intel Types</item>
+    </string-array>
+    <string-array name="gpu_options">
+        <item>Select GPU</item>
+        <item>Intel</item>
+        <item>AMD</item>
+    </string-array>
+    <string-array name="opsys_options">
+        <item>Select Operating System</item>
+        <item>MacOS</item>
+        <item>Windows</item>
+        <item>Linux</item>
+        <item>Chrome</item>
+    </string-array>
+</resources>
