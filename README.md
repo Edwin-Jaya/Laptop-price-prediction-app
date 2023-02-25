@@ -4,7 +4,7 @@
 
 ## About
 
-This project was made by me to learn more about machine learning, web, etc. The dataset used is from <a href="https://www.kaggle.com/datasets/muhammetvarl/laptop-price">kaggle</a>.
+This project was made by me and my friend, Ariq, to learn more about machine learning, web, and android. The dataset used is from <a href="https://www.kaggle.com/datasets/muhammetvarl/laptop-price">kaggle</a>.
 
 ## Obstacles
 
@@ -12,7 +12,6 @@ This project was made by me to learn more about machine learning, web, etc. The 
 - [x] Selecting features that would be use in the model.
 - [x] Encode the features, especially the cpu.
 - [x] How to make a card layout in website.
-- [ ] How to deploy the model in cloud.
 
 ## Deployment
 
